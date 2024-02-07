@@ -1,56 +1,64 @@
 <!doctype html>
 <html>
     <head>
-        <title>El Hércules de Jaén</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <title>DevLog</title>
         <meta charset="utf-8">
         <meta name="description" content="Descripcion">
         <link rel="stylesheet" href="mystyle.css">
+		
     </head>
     <body>
         <header>
-              <h1>El Hércules de Jaén</h1>
+              <h1>DevLog</h1>
         </header>
         <ul class="nav">
-            <li><a class="main" href="index.html">Home</a></li>
-            <li><a href="news.asp">page1</a></li>
-            <li><a href="contact.asp">page2</a></li>
-            <li><a href="about.asp">page3</a></li>
-            <li><a href="about.asp">page4</a></li>
-            <li><a href="about.asp">page5</a></li>
+            <li><a class="main" href="#">Home</a></li>
+            <li><a href="https://www.artstation.com/hichamhabchi1">Artista 1</a></li>
+            <li><a href="https://www.artstation.com/monikapalosz">Artista 2</a></li>
+            <li><a href="https://www.artstation.com/zeen">Artista 3</a></li>
+            <li><a href="https://www.artstation.com/jia95">Artista 4</a></li>
+            <li><a href="https://www.artstation.com/suqling">Artista 5</a></li>
           </ul>
-        <div class="wrapper">
+        <div id="wrapper">
             <main>
-                <p>Este es el contenido principal de la página.</p>
-                <article id="intro">
-                    <p>Este es un artículo de ejemplo que muestra cómo utilizar la etiqueta article en HTML5.</p>
-                  </article>        
-                <section id="inicio" class="destacada">
-                    <h2>Bienvenidos a mi sitio web</h2>
-                    <p>En este sitio encontrarás información sobre nuestra empresa y los servicios que ofrecemos.</p>
-                  </section>
-              
-                  <section id="nosotros" class="normal">
-                    <h2>Nosotros</h2>
-                    <p>Somos una empresa dedicada a ofrecer soluciones tecnológicas innovadoras y eficientes para pequeñas y medianas empresas.</p>
-                    <p>Contamos con un equipo altamente capacitado y comprometido con la satisfacción de nuestros clientes.</p>
-                  </section>
+                <section id="seccion1">
+					<article>
+					<h2>¡Que te calle, pipero!</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus pulvinar molestie. Vestibulum eget nunc justo. Vestibulum luctus, lacus a tempus finibus, metus orci pretium arcu, sit amet maximus libero ante vitae arcu. In tellus lacus, ultrices et libero sit amet, tempor pulvinar ex. In blandit, lorem ac aliquam sollicitudin, nunc nunc rhoncus enim, nec ullamcorper lectus quam nec tortor. Morbi et nulla sollicitudin, imperdiet sapien id, malesuada velit. Fusce at lacinia massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam sodales erat sed turpis aliquet egestas. Integer tempus eget ante vel lacinia. Sed vel orci eu lacus malesuada pulvinar sit amet a elit.</p>
+					</article>
+				</section>
+				<section id="seccion2">
+					<article>
+					<h2>Bueno ya hombre ya .</h2>
+					<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus porta tempus metus, non varius risus vestibulum et. Proin ultricies scelerisque quam, at lacinia quam aliquet eget. Phasellus volutpat facilisis interdum. Suspendisse enim eros, vehicula eu imperdiet sed, consequat in elit. Vestibulum nisl est, congue eu neque vel, gravida dapibus lorem. Vivamus ornare, lorem pellentesque dictum pellentesque, massa metus rutrum lorem, vitae accumsan mi metus in erat. Vestibulum rhoncus posuere justo quis mollis. Cras auctor elit eu leo tincidunt, sed tincidunt orci lobortis. Nulla eu vulputate mi. Cras semper, nisi ac congue porta, urna libero consequat urna, vitae fermentum diam enim ut quam.</p>
+					</article>
+				</section>
+				<section id="seccion3">
+					<article>
+					<h2>Tenemo'l enemio en casa</h2>
+					<p>Etiam vehicula tortor massa, non pretium odio congue et. Donec quis venenatis dolor. Proin sapien urna, ullamcorper at ligula eu, scelerisque posuere felis. Quisque quam nulla, mollis nec orci tincidunt, sagittis varius dolor. Nunc mollis libero eget mauris facilisis consectetur. Aliquam accumsan libero nec magna bibendum sagittis. Curabitur a felis et nibh commodo sagittis ut dictum magna. Vivamus lacinia eget lorem at gravida. Aenean lacinia mi tortor, id gravida lacus ullamcorper id. Cras dapibus, magna vitae congue bibendum, enim ex sodales augue, congue mollis lectus risus vitae arcu. Ut sollicitudin nisi arcu, eu tempus eros porttitor vel. Maecenas pretium facilisis mauris, sit amet viverra eros tempus vitae. Morbi lacinia in justo eget eleifend. Suspendisse justo dolor, venenatis sed orci at, interdum pretium ligula. Morbi viverra consequat iaculis.</p>
+					</article>
+				</section>
              </main>
              <aside>
-                <img class="foto" src="sonny.jpg" alt="Flowers in Chania">
-                <h3>Aside</h3>
+                <img class="foto" src="info.png">
+                <h3>Links</h3>
                 <ul class="nav2">
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#seccion1">seccion1</a></li>
+                  <li><a href="#seccion2">seccion2</a></li>
+                  <li><a href="#seccion3">seccion3</a></li>
                 </ul>
-              </aside>
-              <footer>
+              </aside>   
+        </div>
+		<footer>
                 <ul class="nav3">
-                  <li><a href="about.asp">page3</a></li>
-                  <li><a href="about.asp">page4</a></li>
-                  <li><a href="about.asp">page5</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=em2yeng1BOE&ab_channel=AdamDuffLUCIDPIXUL">CoolVideo</a></li>
+                  <li><a href="https://github.com/mugika19191">GitHub</a></li>
+                  <li><a href="https://www.youtube.com/@TheCherno">Tutoriales</a></li>
                 </ul>
             </footer>
-        </div>
     </body>
 </html>

@@ -1,5 +1,11 @@
 body {
-  background-color: rgb(0, 238, 255);
+  background-image: url(texture_06.png);
+  background-repeat: circular;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
   }
 
 header{
@@ -10,11 +16,9 @@ header:hover{
   text-shadow: 2px 2px #ff0000;
   }
 
-body div.wrapper main{
-  background-image: url(uzu.jpg);
-  background-repeat: round;
+ main{
+  background-color:DimGray;
 }
-
 
 ul.nav {
   list-style-type: none;
@@ -110,13 +114,11 @@ h1 {
  aside h3{
   text-align: center
  } 
-  aside{
-    float: right;
-    width: 20%;
+  wrapper-aside{
+    flex:20%;
   }
   aside img.foto:hover{
-    filter: blur(3px);
-    
+    transform: scale(1.2);
   }
 
   aside img.foto{
@@ -124,12 +126,15 @@ h1 {
     max-width: 100%;
   }
 
-  main{
-    float: left;
-    width: 80%;
+  wrapper-main{
+    flex:80%;
   }
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+ #wrapper{
+	 display:flex;
+	 justify-content:space-between;
+	 padding : 20px;
+ }
+ footer{
+	 text-align:center;
+	 padding:10px;
+ }
